@@ -44,14 +44,17 @@ public class ImageManipulation {
                         // give the pixel the actual red but set green and blue to 0
                         pixel = (a << 24) | (r << 16) | (0);
                         image.setRGB(x, y, pixel);
+                        break;
                     case "g":
                         // give the pixel the actual green but set red and blue to 0
                         pixel = (a << 24) | (0) | (g << 8);
                         image.setRGB(x, y, pixel);
+                        break;
                     case "b":
                         // give the pixel the actual blue but set green and red to 0
-                        pixel = (a << 24) | (0) | (0) | b;
+                        pixel = (a << 24) | (0) | b;
                         image.setRGB(x, y, pixel);
+                        break;
                 }
 
 

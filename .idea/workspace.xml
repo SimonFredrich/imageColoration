@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49c6c6e2-2366-470f-862d-e9a50bb42157" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/imageColoration/com/simon/app/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/imageColoration/com/simon/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/imageColoration/com/simon/app/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/imageColoration/com/simon/app/imagemanipulation/ImageManipulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/imageColoration/com/simon/app/imagemanipulation/ImageManipulation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/imageColoration/com/simon/app/window/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/imageColoration/com/simon/app/window/Window.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/simon/app/imagemanipulation/ImageManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/simon/app/imagemanipulation/ImageManipulation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,24 +22,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/simon/app/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="96">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/simon/app/userinteraction/UserInteraction.java">
+        <entry file="file://$PROJECT_DIR$/src/com/simon/app/window/Window.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="381">
+              <caret line="86" column="1" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -43,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/simon/app/imagemanipulation/ImageManipulation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="58" lean-forward="true" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
+            <state relative-caret-position="347">
+              <caret line="54" column="52" lean-forward="true" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,11 +87,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2209" />
-    <option name="y" value="158" />
-    <option name="width" value="1371" />
-    <option name="height" value="791" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="51" />
+    <option name="y" value="23" />
+    <option name="width" value="1389" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -202,9 +203,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="51" y="23" width="1389" height="877" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1936912" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2501856" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -213,7 +214,7 @@
       <window_info id="Learn" order="6" weight="0.32982844" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32937366" />
-      <window_info active="true" anchor="bottom" id="Run" order="1" visible="true" weight="0.3650108" />
+      <window_info active="true" anchor="bottom" id="Run" order="1" visible="true" weight="0.36410922" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.3297414" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.32769832" />
@@ -249,40 +250,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/simon/app/window/FileChooserDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/com/simon/app/window/Window.form" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Learning">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Learning" />
     <entry file="file://$PROJECT_DIR$/src/com/simon/app/panels/Button1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/simon/app/window/Window.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/simon/app/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -297,10 +271,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/simon/app/window/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="86" column="1" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/simon/app/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/simon/app/imagemanipulation/ImageManipulation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="58" lean-forward="true" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
+        <state relative-caret-position="347">
+          <caret line="54" column="52" lean-forward="true" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
