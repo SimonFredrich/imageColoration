@@ -42,7 +42,7 @@ public class ImageManipulation {
                 switch (color) {
                     case "r":
                         // give the pixel the actual red but set green and blue to 0
-                        pixel = (a << 24) | (r << 16) | (0 << 8) | 0;
+                        pixel = (a << 24) | (r << 16) | (0);
                         image.setRGB(x, y, pixel);
                     case "g":
                         // give the pixel the actual green but set red and blue to 0
@@ -50,7 +50,7 @@ public class ImageManipulation {
                         image.setRGB(x, y, pixel);
                     case "b":
                         // give the pixel the actual blue but set green and red to 0
-                        pixel = (a << 24) | (0 << 16) | (0 << 8) | b;
+                        pixel = (a << 24) | (0) | (0) | b;
                         image.setRGB(x, y, pixel);
                 }
 
