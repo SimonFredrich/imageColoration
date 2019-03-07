@@ -1,5 +1,7 @@
 package com.simon.app.window;
 
+import com.simon.app.panels.Button1;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -9,9 +11,9 @@ import java.io.File;
 public class Window extends JPanel implements ActionListener {
     private static final long serialVersionUID = 1L;
     static private final String newline = "\n";
-    JButton openButton, saveButton;
-    JTextArea log;
-    JFileChooser fc;
+    private JButton openButton, saveButton;
+    private JTextArea log;
+    private JFileChooser fc;
 
     public Window() {
         super(new BorderLayout());
@@ -29,12 +31,16 @@ public class Window extends JPanel implements ActionListener {
         saveButton = new JButton("Speichern");
         saveButton.addActionListener(this);
 
+        Button1 button1 = new Button1();
+
         JPanel buttonPanel = new JPanel();
         buttonPanel.add(openButton);
         buttonPanel.add(saveButton);
+        buttonPanel.add(button1);
 
         add(buttonPanel, BorderLayout.PAGE_START);
         add(logScrollPane, BorderLayout.CENTER);
+
     }
 
     @Override
@@ -67,18 +73,8 @@ public class Window extends JPanel implements ActionListener {
         }
     }
 
-    /** Returns an ImageIcon, or null if the path was invalid. */
-    protected static ImageIcon createImageIcon(String path) {
-        java.net.URL imgURL = Window.class.getResource(path);
-        if (imgURL != null) {
-            return new ImageIcon(imgURL);
-        } else {
-            System.err.println("Couldn't find file: " + path);
-            return null;
-        }
-    }
 
-    private static void createShowUI() {
+    public static void createShowUI() {
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -88,15 +84,4 @@ public class Window extends JPanel implements ActionListener {
         frame.setVisible(true);
     }
 
-    public static void meeen() {
-        /*
-        Schedule a job for the event dispatch thread:
-        creating and showing this application's GUI.
-        */
-        SwingUtilities.invokeLater(() -> {
-            // Turn off metal's use of bold fonts
-            UIManager.put("swing.boldMetal", Boolean.FALSE);
-            createShowUI();
-        });
-    }
 }
